@@ -1,0 +1,150 @@
+
+.contain{
+  /* background: linear-gradient(to top ,#4EC1FE,#A64EFE);
+  width: 100%;
+  height: 100vh; */
+  display: flex;
+  justify-content: center;
+ 
+}
+.box{
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 25, 25);
+  width: 350px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ gap: 9px;
+
+}
+/* .innerBox{
+ 
+  display: flex;
+  flex-direction: column;  
+  align-items: center; 
+      
+} */
+h4{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  width: 87%;
+  padding: 6px;
+  border-radius: 6px;
+}
+.int{
+  display: flex;
+  align-self: flex-start;
+  margin-left: 20px;
+   
+}
+
+.button{
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-self:flex-end ;
+  margin-right: 20px !important;
+  border-radius: 10px !important;
+  justify-content: center;
+  background-color: #04773e; 
+  color:rgb(235, 233, 233);
+}
+.fotbox{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-style: italic;
+  font-size: 1rem;
+}
+.Link{
+  color:white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.Link:hover{
+color: #fee44e;
+}
+.fb ,.twi ,.goo{
+  border:1px solid white;
+  border-radius: 40%;
+  padding:6px;
+  font-size:1.3rem;
+  margin:6px ;
+ 
+}
+
+.fb:hover{
+  color: #2f15be;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.twi:hover{
+  color: #3bade2;
+  background-color: aliceblue; 
+  cursor: pointer;  
+}
+.goo:hover{
+  color: #eb2232;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.cont{
+  padding:6px;
+  font-size:1.5rem;
+  color:yellow;
+}
+.input{
+  width: 100%;
+  background: transparent !important;
+  color: rgb(44, 43, 43) !important; 
+  border: 2px solid black;
+  /* border-top: none;
+  border-left: none;
+  border-right: none;  */
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 4px 6px rgb(148, 146, 146);
+}
+.inti{
+  width: 100%;
+  background: transparent !important;
+  color: rgb(44, 43, 43) !important; 
+  border: 2px solid black;
+  color: aliceblue !important;
+}
+.input::placeholder{
+  color: rgb(24, 22, 22) !important;
+  font-size: 0.9rem;
+}
+.inti::placeholder{
+  color: rgb(255, 255, 255) !important;
+  font-size: 0.9rem; 
+}
+
+.btnhov:hover{
+  color: #eb2232 !important;
+  background-color: aliceblue !important;
+  cursor: pointer;
+}
+.btnhov i{
+  color: #da3e6c !important;
+  cursor: pointer;
+}
+.td{
+  width:100px;
+ text-align: center;
+ font-size: 1.5rem;
+  
+}
