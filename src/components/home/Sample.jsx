@@ -11,7 +11,7 @@ function reducer(state, action) {
     }
     case 'changed_name': {
       return {
-        name: action.nextName,
+        name: action.nextName,    
         age: state.age
       };
     }

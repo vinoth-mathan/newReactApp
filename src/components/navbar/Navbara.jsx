@@ -57,7 +57,7 @@ const Navbara = () => {
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2 inti"
+              className="me-2 inti"   
               aria-label="Search"
               
             />

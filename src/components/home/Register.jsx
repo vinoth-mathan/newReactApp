@@ -13,7 +13,7 @@ const Register = () => {
       e.preventDefault()
       navigate('/')
    }
-  return (
+  return (   
     <div className='contain'>
         <div >
             <form className='box' >

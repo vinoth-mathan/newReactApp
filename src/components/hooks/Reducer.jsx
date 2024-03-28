@@ -24,7 +24,7 @@ const [state,dispatch] =useReducer(counterReducer,{count:0})
    <button onClick={()=>dispatch({type:'DECREMENT'})}>decrement</button>
    <button onClick={()=>dispatch({type:'RESET'})}>reset</button>
    </>
-  )
+  )  
 }
 
 export default Reducer

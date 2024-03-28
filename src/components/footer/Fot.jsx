@@ -20,7 +20,8 @@ const Fot = () => {
               type="search"
               placeholder="Enter Email"
               className="me-2 inti"
-              aria-label="Email"
+              aria-label="Email"  
+              style={{border:'1px solid white'}}
             />
             <Button variant="info" className='me-2' style={{color:'white',fontWeight:'700'}}>Subscribe</Button>
           </Form>

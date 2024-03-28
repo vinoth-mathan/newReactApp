@@ -54,7 +54,10 @@ useEffect(()=>{
  },[])
 
 
-  return (
+    function deleter(id){
+      setSearch( search.filter((item)=> item.id !== id))
+    }
+  return (        
       <>
             <Container style={{marginTop:'100px'}}>
 

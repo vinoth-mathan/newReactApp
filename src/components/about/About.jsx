@@ -18,19 +18,10 @@ const About = () => {
             </Col>
           </Row>
           <Row style={{marginBottom:'20px',marginTop:'50px'}}>
-            <Col></Col>
-            <Col md={4} style={{fontSize:'2rem',fontWeight:'700'}}><h2>Our team lives and breathes digital</h2></Col>
-            <Col md={4}>
-              <p style={{fontSize:'1.1rem',fontWeight:'500'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed aperiam qui reiciendis veritatis! Quibusdam?</p>
-              <Button variant=''style={{backgroundColor:'rgb(6, 182, 114)',fontWeight:'700',color:'white'}}>Let's Talk</Button>
-            </Col>
-            <Col></Col>
-          </Row>
-
-          <Row style={{marginBottom:'10px',marginTop:'50px'}}>
-            <Col></Col>
-            <Col md={7} style={{fontSize:'2rem',fontWeight:'700'}}>
-              Big Brands trust their digital stategy to agencies like witrey
+           
+            <Col style={{fontSize:'1.5rem',fontWeight:'700'}}>
+                <Constparent/>
+                
             </Col>
             <Col></Col>
           </Row>

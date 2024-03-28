@@ -10,20 +10,25 @@ import About from './components/about/About';
 import Useeft from './components/hooks/Useeft';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import DisplayCart from './components/context/DisplayCart';
+import { useState } from 'react';
+import userContext from './components/context/Context';
 
 // import Reducer from './components/hooks/Reducer';
 // import Crtwb from './components/example/Crtwb';
 
 
+
+
+
 const App = () => {
+  const [search ,setSearch] = useState('')
+  const [user,setUser]=useState([])  
+  const [value , setValue] = useState('')
 
   return (
-    // <>
-    // <Reducer/>
-    // <Crtwb/> 
-    // </> 
       <>
         <BrowserRouter>
+        <userContext.Provider value={{user,setUser,value,setValue,search,setSearch}}>
       <Navbara />
     <Routes>
       <Route path='/' element={<Home/>} />
@@ -34,6 +39,7 @@ const App = () => {
       <Route path='/api' element={<Useeft/>} />
       <Route path='/display' element={ <DisplayCart/>}/>
     </Routes>
+    </userContext.Provider>
    </BrowserRouter>
       </>
   )

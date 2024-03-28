@@ -9,7 +9,7 @@ const Child = ({datebirth}) => {
   function handelClick(){
     const user = localStorage.getItem("name")
     const email = localStorage.getItem('email')
-    const dob = localStorage.getItem('dob')
+    const dob = localStorage.getItem('dob') 
 
     function calculateAge(dob) {
       var today = new Date();

@@ -63,6 +63,12 @@ const Home = () => {
                 <Col md={6}>
                 <Child datebirth={dob}/>
                 </Col>
+      
+              </Row>
+              <Row>   
+                <Col>
+                 <Tablapl />
+                </Col>
               </Row>
       </Container>
           </div>
