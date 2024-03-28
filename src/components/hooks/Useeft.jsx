@@ -7,6 +7,7 @@ import Spinner from 'react-bootstrap/Spinner';
 
 const Useeft = () => {
  const [count ,setCount]=useState(0)
+ const [search,setSearch] = useState()
  const [msg,setMsg]=useState([])
  const [user,setUser]=useState([])
  const [loding,setLoding]=useState(true)
@@ -59,7 +60,7 @@ useEffect(()=>{
     }
   return (        
       <>
-            <Container style={{marginTop:'100px'}}>
+     <Container style={{marginTop:'100px'}}>
 
       <div style={{display:'flex',margin:'15px',gap:"20px"}}>
       <button onClick={()=>{setCount(count+1)}}>increment</button> 

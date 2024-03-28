@@ -7,8 +7,7 @@ import Child from '../footer/Child';
 import {Button }from 'react-bootstrap';
 import homeone from '../assets/homeone.jpg'
 import Adddata from '../context/Adddata';
-
-
+import Tablapl from '../hooks/Tablapi';
 
 const Home = () => {
    const inputRef = useRef();

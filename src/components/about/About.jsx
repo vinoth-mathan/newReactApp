@@ -5,6 +5,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image';
 import offone from '../assets/off1.jpeg'
 import offtwo from '../assets/off 2.jpg'
+import Constparent from '../context/Constparent';
 
 const About = () => {
   return (
