@@ -24,17 +24,10 @@ const About = () => {
                 <Constparent/>
                 
             </Col>
-            <Col></Col>
+           
           </Row>
 
-          <Row style={{marginTop:'30px',marginBottom:'30px'}}>
-            <Col> <span className='spn'>TOYOTᗩ</span></Col>
-            <Col> <span className='spn'>ᖇOᑕᕼE</span></Col>
-            <Col><span className='spn'>ᔕᗩᑎTIᒪᒪᗩᑎᗩ</span> </Col>
-            <Col><span className='spn'>TᗩᑕOᗷEᒪᒪ</span></Col>
-            <Col><span className='spn'>ᑎIᐯEᗩ</span> </Col>
-            <Col><span className='spn'>ᗷᗩᑎᑕᕼᗩᖇIᗷE</span></Col>
-          </Row>
+          
 
           <Row style={{marginTop:'50px',marginBottom:'30px',gap:'10px'}}>
             <Col></Col>

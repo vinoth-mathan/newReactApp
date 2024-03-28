@@ -42,7 +42,7 @@ const Conchild2 = () => {
                         </tbody>
                     )
                 })}
-              </table>) : <span>Click to see the table</span> }
+              </table>) : <span>Click to view the table</span> }
     </div>
   )
 }

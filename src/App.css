@@ -143,14 +143,15 @@ color: #fee44e;
   cursor: pointer;
 }
 .td{
-  width:100px;
+ 
  text-align: center;
- font-size: 1.5rem;
+ font-size: 1rem;
+ color: white;
   
 }
 .tdd{
-  color: #da3e6c !important;
+  color: #e43e70 !important;
   font-weight: 600;  
- font-size: 1.5rem;
+ font-size: 1rem;
   
 }
